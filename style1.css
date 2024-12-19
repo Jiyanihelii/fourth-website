@@ -1,0 +1,150 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #006241;
+    color: #fff;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 120px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header nav ul li a:hover {
+    color: #f4a300;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('https://www.starbucks.com/static/images/home/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .hero-text {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.hero a {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #f4a300;
+    color: white;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+/* Product Section Styles */
+.products {
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.product-item img:hover {
+    transform: scale(1.05);
+}
+
+.product-item h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.product-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Footer Section Styles */
+footer {
+    background-color: #006241;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer ul li a:hover {
+    color: #f4a300;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Starbucks website landing page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section>
+            <div class="circle"></div>
+            <header>
+                <a href="#"><img src="./logo.png" class="logo" alt="Starbucks Logo"></a>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="new.html">What's New</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <div class="textBox">
+                    <h2>It's not just Coffee<br>It's <span>Heli's Starbucks</span></h2>
+                    <p>Starbucks was founded in 1971 in Seattle, Washington, by three partners: Jerry Baldwin, Zev Siegl, and Gordon Bowker. Initially, Starbucks was a single store selling high-quality coffee beans and equipment. It wasn’t until Howard Schultz joined the company in 1982 that Starbucks transformed into a global coffeehouse brand. Schultz was inspired by the coffee culture in Italy and proposed the idea of creating a café where people could enjoy coffee drinks like espresso and cappuccinos.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            
+                <div class="imgBox">
+                    <img src="./img1.png" class="starbucks" alt="Starbucks Coffee Image 1">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="./thumb1.png" alt="Thumbnail 1" onclick="imgSlider('img1.png');changeCircleColor('#017143')"></li>
+                <li><img src="./thumb2.png" alt="Thumbnail 2" onclick="imgSlider('img2.png');changeCircleColor('#eb7495')"></li>
+                <li><img src="./thumb3.png" alt="Thumbnail 3" onclick="imgSlider('img3.png');changeCircleColor('#d752b1')"></li>
+            </ul>
+            <ul class="sci">
+                <li><a href="#"><img src="./facebook.png" alt="Facebook Icon"></a></li>
+                <li><a href="#"><img src="./instagram.png" alt="Instagram Icon"></a></li>
+                <li><a href="#"><img src="./twitter.png" alt="Twitter Icon"></a></li>
+            </ul>
+        </section>
+
+<script src="main.js"></script>
+    </body>
+</html>

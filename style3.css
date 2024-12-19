@@ -1,0 +1,116 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #006241;
+    color: #fff;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 120px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header nav ul li a:hover {
+    color: #f4a300;
+}
+
+/* What's New Header Styles */
+.whats-new-header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.whats-new-header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.whats-new-header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* What's New Section Styles */
+.whats-new-section {
+    padding: 50px 20px;
+}
+
+.whats-new-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+}
+
+/* New Arrivals, Seasonal Specials, Updates Section */
+.new-arrival-items, .seasonal-items, .update-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.new-arrival-item, .seasonal-item, .update-item {
+    width: 30%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.new-arrival-item img, .seasonal-item img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.new-arrival-item img:hover, .seasonal-item img:hover {
+    transform: scale(1.05);
+}
+
+.new-arrival-item h3, .seasonal-item h3, .update-item h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.new-arrival-item p, .seasonal-item p, .update-item p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #006241;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-content p {
+    font-size: 14px;
+}
